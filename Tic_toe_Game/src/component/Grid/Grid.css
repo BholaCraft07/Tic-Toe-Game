@@ -1,0 +1,38 @@
+.grid-wraper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid {
+    height: 400px;
+    width: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.turn-highlight {
+    color: #000;
+}
+.turn-highlight span{
+    color: #fff;
+}
+.winner{
+    color: greenyellow;
+    border: 1px solid white;
+    padding:5px;
+    border-radius: 10px;
+    background: rgb(170, 156, 130);
+    box-shadow: 0 10px 15px 0 rgba(255, 255, 255, 0.2);
+}
+.reset {
+    padding: 13px;
+    border: none !important;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}

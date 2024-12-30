@@ -1,0 +1,13 @@
+:root{
+    --yellow:#ffc107;
+}
+.body{
+    background: #de9393;
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+    width: 50%;
+    text-align: center;
+    height: 90vh;
+    border-radius:10px;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2);
+}
